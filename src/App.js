@@ -6,13 +6,13 @@ import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Routes>
         <Route path="/" exact element={<HomePage />} />
         <Route path="/shop/hats" element={<ShopPage />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
